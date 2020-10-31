@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell</title>
+    <link rel="shortcut icon" type="image/png" href="F:\Users\User\Desktop\Coin Website\images\COINCOIN 0.png">
+    <link rel="stylesheet" href="sell.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img src="images/7.png" alt="">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="market.html">Market</a>
+                <a href="buy1.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a href="getintouch.html">Get In Touch</a>
+            </div>
+            <div class="reg">
+                <a class="reg-link" href="login.html">Log In</a>
+                <a href="wizard_form/index.html" target="_blank"><button class="reg-btn">Sign up</button></a>
+            </div>
+        </div>
+
+        <div class="bill-board"></div>
+
+        <div class="form-wrapper1">
+            <form class="form1">
+                <h3>Sell</h3>
+                <div class="coin">
+                    <div>
+                        <label for="Currency">Cryptocurrency to Sell</label>
+                        <br><br>
+                        <select id="Currency" name="Currency" class="select-tag">
+                            <option value="">Select --</option>
+                            <option value="Bitcoin (BTC)">Bitcoin (BTC)</option>
+                            <option value="Ethereum (ETH)">Ethereum (ETH)</option>
+                            <option value="Tron (TRX)">Tron (TRX)</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Amount">Amount of Cryptocurrency</span></label>
+                        <br><br>
+                        <input type="number" placeholder="Amount" value="" class="form-control"> 
+                    </div>   
+                </div>
+                <div class="coin2">
+                    <div>
+                        <label for="Currency">Currency</label>
+                        <br><br>
+                        <select id="Currency" name="Currency" class="select-tag">
+                            <option value="Naira (NGN)">Naira (NGN)</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Amount">Amount of Currency</span></label>
+                        <br> <br>
+                        <input type="number" placeholder="Amount" value="" class="form-control">
+                    </div>
+                </div>
+                <div class="coin3">
+                    <div>
+                        <label for="wallet-id">Enter Your Wallet Address</span></label>
+                        <br> <br>
+                        <input type="text" placeholder="Wallet Address" value="" class="form-control1">
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="button" id="sell">Sell</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169;2020 Coinaskglobal. All rights reserved.</p>
+    </div>
+<script src="sell.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    z-index: 1000;
+    padding: 0 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .1);
+    background-color: #9370db;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 38%;
+}
+
+.menu .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 30px;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .2s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.menu .reg a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.reg .reg-link {
+    color: #fff;
+}
+
+.reg .reg-btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+    color: #4c04ec;
+    transition: .4s;
+}
+
+.reg .reg-btn:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+#coin-table {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+
+.pricing h2 {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #9370db;
+    letter-spacing: 1.5px;
+}
+
+table, th, td {
+    border: 1px solid none;
+    border-collapse: collapse;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+th, td {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    outline: none;
+    font-weight: normal;
+}
+
+th{
+    text-align: left;
+    background: #9370db;
+    font-size: 20px;
+}
+
+td {
+    background: #fff;
+    color: #555;
+    font-size: 16px;
+}

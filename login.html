@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="shortcut icon" type="image/png" href="F:\Users\User\Desktop\Coin Website\images\COINCOIN 0.png">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img src="images/7.png" alt="">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="market.html">Market</a>
+                <a href="buy1.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a href="#">Get In Touch</a>
+            </div>
+            <div class="reg">
+                <a class="reg-link" href="login.html">Log In</a>
+                <a href="wizard_form/index.html" target="_blank"><button class="reg-btn">Sign up</button></a>
+            </div>
+        </div>
+
+        <div class="bill-board"></div>
+
+        <div class="card-container">
+            <div class="header-wrapper">
+                <img src="images/user_interface_.svg" alt="">
+                <h2>Log in</h2>
+            </div>
+            <form action="" id="form">
+                <div class="other1">
+                    <div>
+                        <label for="email" class="other-label">Email <span class="star">*</span></label>
+                        <br> 
+                        <input type="email" name="email" id="email" class="form-control" placeholder="johndoe@email.com" data-rule="required|email">
+                    </div>
+                    <br>
+                    <div id="errors"></div>
+                    <br>
+                    <div>
+                        <label for="password" class="other-label">Password <span class="star">*</span></label>
+                        <br> 
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" data-rule="required|email">
+                    </div>
+                </div>
+                <button class="btn" type="submit">Log in</button>
+            </form>
+            <div class="details">
+                <p><a href="wizard_form/index.html">Create account here</a></p>
+                <a class="forgot" href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169;2020 Coinaskglobal. All rights reserved.</p>
+    </div>
+<script src="login.js"></script>
+</body>
+</html>

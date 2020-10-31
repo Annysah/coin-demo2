@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tether</title>
+    <link rel="shortcut icon" type="image/png" href="F:\Users\User\Desktop\Coin Website\images\COINCOIN 0.png">
+    <link rel="stylesheet" href="tether.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                <img src="images/7.png" alt="">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="market.html">Market</a>
+                <a href="buy1.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a href="getintouch.html">Get In Touch</a>
+            </div>
+            <div class="reg">
+                <a class="reg-link" href="login.html" target="_blank"><button class="reg-btn">Log In</button></a>
+            </div>
+        </div>
+
+        <div class="bill-board"></div>
+        
+        <div class="wallet-container">
+            <div class="wallet-id">
+                <div class="wallet-symbol">
+                    <img src="images/tether.png" alt="" class="wallet-logo">
+                    <h2 class="list-heading">Tether wallet ID</h2>
+                </div>
+                <p></p>
+                <div class="tooltip">
+                    <button onclick="myFunction()" onmouseout="outFunc()" class="btn">
+                      Copy
+                    </button>
+                </div>
+            </div>  
+            <div class="buy-details">
+                    <h2>Buy Tether Coin</h2>
+                    <form id="buy-details1">
+                        <div>
+                            <input type="number" name="" id="" placeholder="Amount of Cryptocurrency" class="form-control1">
+                            <select id="Currency">
+                                <option value="">--Select--</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="number" name="" id="" placeholder="Amount to Pay" class="form-control1">
+                            <select id="Currency">
+                                <option value="">--Select--</option>
+                            </select>
+                        </div>
+
+                        <div class="align total">
+                            <span>Total  &#8594;</span>
+                            <span id="total-with-tip"></span>
+                        </div>
+
+                        <br><br>
+                        <select id="banks" name="banks" class="select-tag">
+                            <option value="">Select a bank --</option>
+                            <option value="Access Bank Nig. Plc">Access Bank Nig. Plc</option>
+                            <option value="Ecobank Nigeria Plc">Ecobank Nigeria Plc</option>
+                            <option value="FCMB Plc">FCMB Plc</option>
+                            <option value="Fidelity Bank Plc">Fidelity Bank Plc</option>
+                            <option value="First Bank of Nigeria Plc">First Bank of Nigeria Plc</option>
+                            <option value="GTB Plc">GTB Plc</option>
+                            <option value="Heritage Banking Company Ltd.">Heritage Banking Company Ltd.</option>
+                            <option value="KeyStone Bank Plc">KeyStone Bank Plc</option>
+                            <option value="Polaris Bank Ltd.">Polaris Bank Ltd.</option>
+                            <option value="Providus Bank Ltd.">Providus Bank Ltd.</option>
+                            <option value="Stanbic - IBTC Bank Plc">Stanbic - IBTC Bank Plc</option>
+                            <option value="Standard Chartered Bank Plc">Standard Chartered Bank Plc</option>
+                            <option value="Sterling Bank Plc">Sterling Bank Plc</option>
+                            <option value="Union Bank of Nigeria Plc">Union Bank of Nigeria Plc</option>
+                            <option value="United Bank for Africa Plc">United Bank for Africa Plc</option>
+                            <option value="Unity Bank Plc">Unity Bank Plc</option>
+                            <option value="Wema Bank Plc">Wema Bank Plc</option>
+                            <option value="Zenith Bank Plc">Zenith Bank Plc</option>
+                        </select>
+                        <br><br>
+                        <input type="number" value="" placeholder="Account Number" class="form-controls">
+                        <br> 
+                        <input type="text" name="name" placeholder="Account Name" class="form-controls">
+                        <br>
+                        <div class="align">
+                            <button type="button" class="form-controls submit" id="generate">Generate ID</button>
+                            <span>: <code id="output"></code></span>
+                            </div>
+                            <a href=""><button class="btn submit1" type="button">Next</button></a>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169;2020 Coinaskglobal. All rights reserved.</p>
+    </div>
+<script src="tether.js"></script>
+</body>
+</html>
